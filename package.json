@@ -1,0 +1,14 @@
+{
+  "name": "sample-file",
+  "version": "1.0.0",
+  "description": "class file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "soumya",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
