@@ -9,6 +9,7 @@
   "author": "soumya",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "readline-sync": "^1.4.10"
   }
 }

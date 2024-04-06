@@ -63,3 +63,5 @@ const fs = require("fs");
 // *copy file
 // fs.copyFileSync('./DemoNew.txt','./files/abc.txt')
 // fs.cpSync('./DemoNew.txt','./files/abcNew.txt')
+// fs.cpSync('./DemoNew.txt','../path/abc.txt')
+
