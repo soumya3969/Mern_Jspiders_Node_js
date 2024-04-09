@@ -9,7 +9,7 @@ const fs = require("fs");
 
 // ?Async
 // console.log("devTestAsync1");
-// fs.writeFile("./files/AsyncDemo.txt", "hello world", (err) => {
+// fs.writeFile("./files/AsyncDemo2.txt", "hello world", (err) => {
 //   if (err) {
 //     return;
 //   } else {
@@ -17,6 +17,13 @@ const fs = require("fs");
 //   }
 // });
 // console.log("devTestAsync2");
+// fs.writeFile("./files/userData.txt ", "hello im soumya", (err) => {
+//   if (err) {
+//     console.log("Error");
+//   } else {
+//     console.log("done");
+//   }
+// });
 
 // *Read
 // ?sync
@@ -24,18 +31,16 @@ const fs = require("fs");
 // console.log(data);
 
 // ?async
-// fs.readFile("./files/AsyncDemo.txt","utf-8",(err,data)=>{
-//     if (err) {
-//         console.log("Error",err)
-//     } else {
-//         console.log(data)
-//     }
-// })
+fs.readFile("./files/abc.txt","utf-8",(err,data)=>{
+    if (err) {
+        console.log("Error",err)
+    } else {
+        console.log(data)
+    }
+})
 
 // *Update //// Append
 // ?sync
-
-
 
 // ?async
 // fs.appendFile("./files/Demo.txt",`I'm a mern stack student \n`,(err)=>{
@@ -46,8 +51,6 @@ const fs = require("fs");
 
 //     }
 // })
-
-
 
 // *Delete File
 // fs.unlinkSync("./files/demo.txt")
@@ -64,4 +67,3 @@ const fs = require("fs");
 // fs.copyFileSync('./DemoNew.txt','./files/abc.txt')
 // fs.cpSync('./DemoNew.txt','./files/abcNew.txt')
 // fs.cpSync('./DemoNew.txt','../path/abc.txt')
-

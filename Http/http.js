@@ -3,7 +3,7 @@ const http = require('http');
 let server=http.createServer((req,res)=>{
     console.log('method',req.method)
     console.log('url',req.url)
-    console.log('headers',req.headers)
+    // console.log('headers',req.headers)
     console.log('query',req.query)
     console.log('params',req.params)
     console.log('body',req.body)

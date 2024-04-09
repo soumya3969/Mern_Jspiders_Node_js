@@ -13,6 +13,7 @@ function saveUsers(users) {
 
 function addUser(userName) {
   const users = getUsers();
+  //   console.log(users)
   const id = users.length > 0 ? users[users.length - 1].id + 1 : 1;
   users.push({ id, name: userName });
   saveUsers(users);
