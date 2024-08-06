@@ -31,26 +31,26 @@ const fs = require("fs");
 // console.log(data);
 
 // ?async
-fs.readFile("./files/abc.txt","utf-8",(err,data)=>{
-    if (err) {
-        console.log("Error",err)
-    } else {
-        console.log(data)
-    }
-})
+// fs.readFile("./files/abc.txt","utf-8",(err,data)=>{
+//     if (err) {
+//         console.log("Error",err)
+//     } else {
+//         console.log(data)
+//     }
+// })
 
 // *Update //// Append
 // ?sync
 
 // ?async
-// fs.appendFile("./files/Demo.txt",`I'm a mern stack student \n`,(err)=>{
-//     if (err) {
-//         console.log("Error",err)
-//     } else {
-//         console.log("update Successful")
+fs.appendFile("./files/abc.txt",`I'm a mern stack student \n`,(err)=>{
+    if (err) {
+        console.log("Error",err)
+    } else {
+        console.log("update Successful")
 
-//     }
-// })
+    }
+})
 
 // *Delete File
 // fs.unlinkSync("./files/demo.txt")

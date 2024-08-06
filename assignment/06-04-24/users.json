@@ -1,1 +1,8 @@
-[{"id":1,"name":"soumya"},{"id":2,"name":"Rashmi"},{"id":3,"name":"sameer"},{"id":4,"name":"somnath"},{"id":5,"name":"sandhya"}]
+[
+  { "id": 1, "name": "soumya" },
+  { "id": 2, "name": "Rashmi" },
+  { "id": 3, "name": "sameer" },
+  { "id": 4, "name": "somnath" },
+  { "id": 5, "name": "sandhya" },
+  { "id": 6, "name": "chittaranjan" }
+]
